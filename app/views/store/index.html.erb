@@ -3,7 +3,7 @@
 <% end %>
 
 <h1>Your Pragmatic Catalog</h1>
-
+<div class="store">
 <% @products.each do |product| %>
   <div class="entry">
     <%= image_tag(product.image_url) %>
@@ -15,3 +15,4 @@
     </div>
   </div>
 <% end %>
+</div>
